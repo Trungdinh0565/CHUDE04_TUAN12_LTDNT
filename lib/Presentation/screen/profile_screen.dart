@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../core/theme/app_theme.dart';
+import '../../Core/theme/app_theme.dart';
 import '../widgets/profile_header.dart';
 import '../widgets/setting_item.dart';
 
@@ -42,7 +42,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: 'Chế độ tối',
               trailing: ValueListenableBuilder<bool>(
                 valueListenable: isDark,
-                builder: (_, value, __) => Switch(
+                builder: (_, value, _) => Switch(
                   value: value,
                   onChanged: (v) => isDark.value = v,
                 ),
