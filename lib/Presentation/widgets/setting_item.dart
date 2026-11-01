@@ -28,7 +28,7 @@ class SettingItem extends StatelessWidget {
                 Icon(icon, color: Theme.of(context).colorScheme.primary),
                 const SizedBox(width: 16),
                 Expanded(child: Text(title)),
-                if (trailing != null) trailing!,
+                ?trailing,
               ],
             ),
           ),
