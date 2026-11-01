@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'core/theme/app_theme.dart';
-import 'presentation/screens/profile_screen.dart';
+import 'Core/theme/app_theme.dart';
+import 'Presentation/screen/profile_screen.dart';
 
 void main() => runApp(const MyApp());
 
