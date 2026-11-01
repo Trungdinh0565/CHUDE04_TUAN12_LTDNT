@@ -15,7 +15,6 @@ class ProfileHeader extends StatelessWidget {
       padding: const EdgeInsets.all(24),
       child: Column(
         children: [
-          // Màu lấy từ ColorScheme: đổi theme là avatar đổi theo
           CircleAvatar(
             radius: 40,
             backgroundColor: colors.primaryContainer,
